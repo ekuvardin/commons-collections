@@ -25,6 +25,8 @@ import java.io.Serializable;
  */
 public class PatriciaTrieSet extends AbstractSet<String> implements Set<String>, Serializable {
 
+    private static final long serialVersionUID = -2365733183789787136L;
+
     // Stub for all values in PatriciaTrie
     static final Object PRESENT = new Object();
     transient PatriciaTrie<Object> trieSet;
